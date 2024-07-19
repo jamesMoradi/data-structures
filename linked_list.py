@@ -4,7 +4,6 @@ class Node:
     self.next = None
 
 class LinkedList:
-
   def __init__(self):
     self.head = None
 
@@ -20,5 +19,5 @@ if __name__ == '__main__':
 
   # Print the linked list item
   while linked_list.head != None:
-    print(linked_list.head.item, end=" ")
+    print(linked_list.head, end=" ")
     linked_list.head = linked_list.head.next
